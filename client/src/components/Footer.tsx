@@ -12,7 +12,9 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://tr.linkedin.com/in/k%C3%BCbra-ayka%C5%9F"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 data-testid="link-linkedin"
               >
