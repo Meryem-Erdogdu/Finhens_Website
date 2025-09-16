@@ -11,10 +11,7 @@ export default function Integration() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 max-w-4xl mx-auto">
-          <div className="flex items-center justify-center p-6 glass-effect rounded-xl hover:scale-105 transition-transform" data-testid="card-integration-quickbooks">
-            <i className="fab fa-quickbooks text-3xl text-muted-foreground"></i>
-          </div>
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-8 max-w-4xl mx-auto">
           <div className="flex items-center justify-center p-6 glass-effect rounded-xl hover:scale-105 transition-transform" data-testid="card-integration-bank">
             <i className="fas fa-university text-3xl text-muted-foreground"></i>
           </div>

@@ -4,7 +4,6 @@ import Dashboard from "@/components/Dashboard";
 import Features from "@/components/Features";
 import About from "@/components/About";
 import Integration from "@/components/Integration";
-import Pricing from "@/components/Pricing";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
@@ -17,7 +16,6 @@ export default function Home() {
       <Features />
       <About />
       <Integration />
-      <Pricing />
       <CTA />
       <Footer />
     </div>

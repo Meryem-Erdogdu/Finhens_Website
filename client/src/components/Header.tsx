@@ -55,13 +55,6 @@ export default function Header() {
               >
                 Data Integration
               </button>
-              <button
-                onClick={() => scrollToSection("pricing")}
-                className="text-muted-foreground hover:text-foreground transition-colors"
-                data-testid="link-pricing"
-              >
-                Pricing
-              </button>
             </div>
           </div>
           <Button 

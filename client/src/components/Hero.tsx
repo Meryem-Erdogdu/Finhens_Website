@@ -9,7 +9,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="pt-24 pb-16 relative overflow-hidden" data-testid="section-hero">
+    <section className="pt-48 pb-32 relative overflow-hidden min-h-screen flex items-center" data-testid="section-hero">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/10"></div>
       <div className="absolute inset-0 opacity-10">
         <img
