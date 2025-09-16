@@ -15,7 +15,7 @@ export default function Features() {
           <div className="glass-effect rounded-2xl p-8 hover:scale-105 transition-transform duration-300" data-testid="card-feature-health">
             <div className="mb-6">
               <img
-                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300"
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300"
                 alt="Financial health analytics dashboard"
                 className="w-full h-48 object-cover rounded-xl"
               />
@@ -36,7 +36,7 @@ export default function Features() {
           <div className="glass-effect rounded-2xl p-8 hover:scale-105 transition-transform duration-300" data-testid="card-feature-ai">
             <div className="mb-6">
               <img
-                src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300"
+                src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300"
                 alt="AI-powered financial insights"
                 className="w-full h-48 object-cover rounded-xl"
               />
@@ -57,7 +57,7 @@ export default function Features() {
           <div className="glass-effect rounded-2xl p-8 hover:scale-105 transition-transform duration-300" data-testid="card-feature-forecasting">
             <div className="mb-6">
               <img
-                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300"
+                src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300"
                 alt="Financial forecasting and growth analytics"
                 className="w-full h-48 object-cover rounded-xl"
               />

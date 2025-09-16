@@ -6,8 +6,8 @@ export default function Hero() {
 
   const showComingSoon = () => {
     toast({
-      title: "Yakında",
-      description: "Bu özellik yakında kullanıma sunulacak.",
+      title: "Coming Soon",
+      description: "This feature will be available soon.",
     });
   };
 
