@@ -1,11 +1,14 @@
 import { Button } from "@/components/ui/button";
+import { useToast } from "@/hooks/use-toast";
 
 export default function Hero() {
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
+  const { toast } = useToast();
+
+  const showComingSoon = () => {
+    toast({
+      title: "Yakında",
+      description: "Bu özellik yakında kullanıma sunulacak.",
+    });
   };
 
   return (
@@ -29,13 +32,13 @@ export default function Hero() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
-              onClick={() => scrollToSection("analytics")}
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg font-semibold"
               data-testid="button-explore-analytics"
             >
               Explore Analytics <i className="fas fa-arrow-right ml-2"></i>
             </Button>
             <Button
+              onClick={showComingSoon}
               variant="outline"
               className="border-border hover:bg-secondary text-foreground px-8 py-4 text-lg font-semibold"
               data-testid="button-watch-demo"
